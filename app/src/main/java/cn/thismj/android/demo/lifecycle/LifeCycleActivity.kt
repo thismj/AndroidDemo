@@ -12,9 +12,8 @@ import androidx.appcompat.app.AppCompatActivity
  * @since 2020/11/13 10:45
  */
 open class LifeCycleActivity(private val name: String) : AppCompatActivity() {
-
     companion object {
-        private const val TAG = "LifeCycle"
+        internal const val TAG = "LifeCycle"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
